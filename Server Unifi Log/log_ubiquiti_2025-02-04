@@ -1,0 +1,69 @@
+----------------------Network Health-----------------------------------------[
+    {
+        "subsystem": "wlan",
+        "status": "unknown",
+        "num_ap": 0,
+        "num_adopted": 0,
+        "num_disabled": 0,
+        "num_disconnected": 0,
+        "num_pending": 0
+    },
+    {
+        "subsystem": "wan",
+        "num_gw": 0,
+        "num_adopted": 0,
+        "num_disconnected": 0,
+        "num_pending": 0,
+        "status": "unknown"
+    },
+    {
+        "subsystem": "www",
+        "status": "unknown"
+    },
+    {
+        "subsystem": "lan",
+        "status": "unknown",
+        "num_sw": 0,
+        "num_adopted": 0,
+        "num_disconnected": 0,
+        "num_pending": 0
+    },
+    {
+        "subsystem": "vpn",
+        "status": "unknown"
+    }
+]----------------------Network List-------------------------------------------[
+    {
+        "dhcpdv6_dns_auto": true,
+        "purpose": "corporate",
+        "igmp_snooping": false,
+        "ipv6_pd_stop": "::7d1",
+        "dhcpguard_enabled": false,
+        "ipv6_client_address_assignment": "slaac",
+        "dhcpd_start": "192.168.1.6",
+        "ipv6_ra_preferred_lifetime": 14400,
+        "ipv6_ra_enabled": true,
+        "dhcpd_stop": "192.168.1.254",
+        "domain_name": "localdomain",
+        "dhcpd_enabled": true,
+        "ip_subnet": "192.168.1.1/24",
+        "ipv6_interface_type": "none",
+        "networkgroup": "LAN",
+        "dhcpdv6_start": "::2",
+        "vlan_enabled": false,
+        "ipv6_setting_preference": "auto",
+        "dhcpdv6_stop": "::7d1",
+        "is_nat": true,
+        "dhcpdv6_enabled": false,
+        "ipv6_ra_priority": "high",
+        "ipv6_pd_start": "::2",
+        "dhcpdv6_leasetime": 86400,
+        "site_id": "67a24152fa7935632f7fb913",
+        "name": "Default",
+        "mdns_enabled": true,
+        "_id": "67a2416bc2beb8256478580c",
+        "attr_no_delete": true,
+        "attr_hidden_id": "LAN",
+        "auto_scale_enabled": true
+    }
+]----------------Rogue AP-----------------------------------------------------[]------------------------Client Status ---------------------------------------[]-----------------------Server Events-----------------------------------------[]------------------------Wlan Config------------------------------------------[]

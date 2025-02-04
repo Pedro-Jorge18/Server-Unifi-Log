@@ -6,8 +6,8 @@ from unificontrol import UnifiClient #install the unificontrol module
 
 client = UnifiClient(
     host="....", #host of the controller
-    username="....", #username of the controller
-    password="....", #password of the controller
+    username=".....", #username of the controller
+    password="......", #password of the controller
     )
 
 def safeGet(m, key): #function to get the value of the key
@@ -81,4 +81,4 @@ def main(): #main function
 if __name__ == '__main__':
     while True:
         main()
-        time.sleep(30) #time to wait
+        time.sleep(15) #time to wait
